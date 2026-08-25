@@ -1,0 +1,20 @@
+services:
+  intelligence:
+    build: ../ml-roadmap-intelligence
+    ports:
+      - "8000:8000"
+    environment:
+      INTEL_MIN_WEEKS: "6"
+      INTEL_MAX_WEEKS: "24"
+
+  api:
+    build: .
+    ports:
+      - "3001:3001"
+    environment:
+      PORT: "3001"
+      HOST: "0.0.0.0"
+      INTELLIGENCE_URL: "http://intelligence:8000"
+      CORS_ORIGIN: "http://localhost:5173"
+    depends_on:
+      - intelligence

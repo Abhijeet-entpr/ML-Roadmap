@@ -1,0 +1,56 @@
+[
+  {
+    "id": "proj-house-prices",
+    "title": "House Price Prediction",
+    "complexity": "easy",
+    "specialization": "classical_ml",
+    "specializationTags": ["hybrid"],
+    "minProficiency": 0,
+    "maxProficiency": 2.5
+  },
+  {
+    "id": "proj-churn",
+    "title": "Customer Churn Prediction",
+    "complexity": "easy",
+    "specialization": "classical_ml",
+    "specializationTags": ["hybrid"],
+    "minProficiency": 1,
+    "maxProficiency": 3
+  },
+  {
+    "id": "proj-medical-cv",
+    "title": "Medical Image Classification",
+    "complexity": "medium",
+    "specialization": "cv",
+    "specializationTags": ["cv", "hybrid"],
+    "minProficiency": 2,
+    "maxProficiency": 4
+  },
+  {
+    "id": "proj-doc-rag",
+    "title": "Document RAG System",
+    "complexity": "medium",
+    "specialization": "nlp",
+    "specializationTags": ["nlp", "hybrid"],
+    "minProficiency": 2,
+    "maxProficiency": 4
+  },
+  {
+    "id": "proj-prod-assistant",
+    "title": "Production AI Assistant",
+    "complexity": "hard",
+    "specialization": "generative",
+    "specializationTags": ["nlp", "hybrid"],
+    "minProficiency": 3,
+    "maxProficiency": 5
+  },
+  {
+    "id": "proj-multi-agent",
+    "title": "Enterprise Multi-Agent Platform",
+    "complexity": "hard",
+    "specialization": "generative",
+    "specializationTags": ["hybrid"],
+    "minProficiency": 3.5,
+    "maxProficiency": 5
+  }
+]

@@ -1,0 +1,164 @@
+{
+  "clusters": [
+    {
+      "id": "foundations",
+      "title": "Foundations",
+      "skills": ["python", "sql", "mathematics", "dsa"],
+      "questions": [
+        {
+          "id": "q-python-1",
+          "skill": "python",
+          "prompt": "Which best describes your comfort writing Python for data work?",
+          "options": [
+            { "id": "a", "label": "I rarely write Python", "score": 0 },
+            { "id": "b", "label": "I can write scripts with guidance", "score": 2 },
+            { "id": "c", "label": "I write production-quality Python regularly", "score": 4 },
+            { "id": "d", "label": "I design libraries and review others' Python", "score": 5 }
+          ]
+        },
+        {
+          "id": "q-sql-1",
+          "skill": "sql",
+          "prompt": "Can you write joins, window functions, and aggregations?",
+          "options": [
+            { "id": "a", "label": "Not yet", "score": 0 },
+            { "id": "b", "label": "Simple SELECT / WHERE", "score": 2 },
+            { "id": "c", "label": "Joins and group by confidently", "score": 3 },
+            { "id": "d", "label": "Window functions and CTEs in production", "score": 5 }
+          ]
+        },
+        {
+          "id": "q-math-1",
+          "skill": "mathematics",
+          "prompt": "How comfortable are you with gradients and probability for ML?",
+          "options": [
+            { "id": "a", "label": "Need a refresher on basics", "score": 1 },
+            { "id": "b", "label": "I follow tutorials with math explanations", "score": 2 },
+            { "id": "c", "label": "I can derive simple losses / update rules", "score": 4 },
+            { "id": "d", "label": "I teach or formalize ML math", "score": 5 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ml-core",
+      "title": "ML Core",
+      "skills": ["classical_ml", "deep_learning", "pytorch", "specialization"],
+      "questions": [
+        {
+          "id": "q-cml-1",
+          "skill": "classical_ml",
+          "prompt": "Have you trained and evaluated classical ML models end-to-end?",
+          "options": [
+            { "id": "a", "label": "No", "score": 0 },
+            { "id": "b", "label": "Followed a notebook once", "score": 2 },
+            { "id": "c", "label": "Built baselines with proper validation", "score": 4 },
+            { "id": "d", "label": "Productionized feature pipelines", "score": 5 }
+          ]
+        },
+        {
+          "id": "q-dl-1",
+          "skill": "deep_learning",
+          "prompt": "Which describes your deep learning experience?",
+          "options": [
+            { "id": "a", "label": "None yet", "score": 0 },
+            { "id": "b", "label": "Completed intro courses", "score": 2 },
+            { "id": "c", "label": "Trained CNNs/Transformers myself", "score": 4 },
+            { "id": "d", "label": "Researched or shipped novel architectures", "score": 5 }
+          ]
+        },
+        {
+          "id": "q-pt-1",
+          "skill": "pytorch",
+          "prompt": "Can you write a custom training loop in PyTorch?",
+          "options": [
+            { "id": "a", "label": "Not yet", "score": 0 },
+            { "id": "b", "label": "With heavy copying from docs", "score": 2 },
+            { "id": "c", "label": "Yes, including debugging shapes/devices", "score": 4 },
+            { "id": "d", "label": "Yes, including distributed or advanced APIs", "score": 5 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "production",
+      "title": "Production",
+      "skills": ["mlops", "deployment", "testing"],
+      "questions": [
+        {
+          "id": "q-mlops-1",
+          "skill": "mlops",
+          "prompt": "Have you used experiment tracking and CI for ML?",
+          "options": [
+            { "id": "a", "label": "No", "score": 0 },
+            { "id": "b", "label": "Local notebooks only", "score": 1 },
+            { "id": "c", "label": "MLflow/W&B + basic CI", "score": 3 },
+            { "id": "d", "label": "Full pipelines with promotion gates", "score": 5 }
+          ]
+        },
+        {
+          "id": "q-deploy-1",
+          "skill": "deployment",
+          "prompt": "Have you containerized and served a model?",
+          "options": [
+            { "id": "a", "label": "No", "score": 0 },
+            { "id": "b", "label": "Ran someone else's Docker image", "score": 2 },
+            { "id": "c", "label": "Built FastAPI/Flask + Docker myself", "score": 4 },
+            { "id": "d", "label": "Production serving with rollback/monitoring", "score": 5 }
+          ]
+        },
+        {
+          "id": "q-test-1",
+          "skill": "testing",
+          "prompt": "Do you write tests for data and model code?",
+          "options": [
+            { "id": "a", "label": "Rarely", "score": 1 },
+            { "id": "b", "label": "Some unit tests", "score": 2 },
+            { "id": "c", "label": "Unit + data validation", "score": 4 },
+            { "id": "d", "label": "Full test pyramid including model contracts", "score": 5 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "career",
+      "title": "Career readiness",
+      "skills": ["ml_system_design", "communication", "project_depth"],
+      "questions": [
+        {
+          "id": "q-sd-1",
+          "skill": "ml_system_design",
+          "prompt": "Can you design an ML system on a whiteboard?",
+          "options": [
+            { "id": "a", "label": "Not yet", "score": 0 },
+            { "id": "b", "label": "I know the high-level boxes", "score": 2 },
+            { "id": "c", "label": "I cover data, training, serving, monitoring", "score": 4 },
+            { "id": "d", "label": "I lead design reviews", "score": 5 }
+          ]
+        },
+        {
+          "id": "q-comm-1",
+          "skill": "communication",
+          "prompt": "How well can you explain ML tradeoffs to stakeholders?",
+          "options": [
+            { "id": "a", "label": "I struggle to simplify", "score": 1 },
+            { "id": "b", "label": "I can summarize results", "score": 3 },
+            { "id": "c", "label": "I tell a clear impact story", "score": 4 },
+            { "id": "d", "label": "I influence decisions with narrative + metrics", "score": 5 }
+          ]
+        },
+        {
+          "id": "q-proj-1",
+          "skill": "project_depth",
+          "prompt": "Do you have portfolio projects with evidence (metrics, code, writeups)?",
+          "options": [
+            { "id": "a", "label": "No projects yet", "score": 0 },
+            { "id": "b", "label": "Course projects only", "score": 2 },
+            { "id": "c", "label": "1–2 solid projects with docs", "score": 4 },
+            { "id": "d", "label": "Production-style portfolio with measurable impact", "score": 5 }
+          ]
+        }
+      ]
+    }
+  ]
+}
